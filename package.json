@@ -1,5 +1,5 @@
 {
-  "name": "react-lazyload-typesript",
+  "name": "react-lazyload-typescript",
   "version": "0.0.1",
   "description": "Inspired by react-lazyload, write in typescript",
   "main": "./lib/cjs/index.js",
