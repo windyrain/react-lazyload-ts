@@ -1,10 +1,10 @@
 {
   "name": "react-lazyload-typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Inspired by react-lazyload, write in typescript",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
-  "types": "./lib/esm/index.d.ts",
+  "types": "./src/index.tsx",
   "files": [
     "/lib"
   ],

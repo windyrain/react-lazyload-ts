@@ -101,16 +101,6 @@ const checkElementVisible = (
     ? component.props.offset
     : [component.props.offset, component.props.offset]; // Be compatible with previous API
 
-  console.log(
-    parentHeight,
-    offsetTop,
-    offsets[0],
-    intersectionHeight,
-    offsetTop - offsets[0] <= intersectionHeight &&
-      offsetTop + height + offsets[1] >= 0 &&
-      offsetLeft - offsets[0] <= intersectionWidth &&
-      offsetLeft + width + offsets[1] >= 0
-  );
   return (
     offsetTop - offsets[0] <= intersectionHeight &&
     offsetTop + height + offsets[1] >= 0 &&
